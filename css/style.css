@@ -8934,9 +8934,10 @@ h1, h2, h3, h4, h5,
 .project {
   width: 100%;
   height: 350px;
-  margin-bottom: 0;
+  margin: auto;
   position: relative;
   z-index: 0;
+  padding: 0;
 }
 
   .project.img-2 {
@@ -9213,12 +9214,17 @@ textarea.form-control {
   .heading-section.heading-section-white p {
     color: rgba(255, 255, 255, 0.9); }
 
-.img,
 .blog-img,
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+
+  .img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 
 .image-popup {
   cursor: -webkit-zoom-in;
